@@ -1,0 +1,14 @@
+// Lädt Critical CSS aus dem Nova
+
+// Lädt Core-Funktionen
+@import '../../../../NOVA/themes/base/sass/functions';
+
+// Lädt "my-nova"-Variablen. Hier können Variablen aus Bootstrap und dem clear-Theme überschrieben werden.
+@import "variables";
+
+// Lädt kritische Style Angaben, hier aus dem "clear"
+// @import '../../../../NOVA/themes/blackline/sass/blackline_crit.scss';
+@import '../../../../NOVA/themes/clear/sass/clear_crit.scss';
+// @import '../../../../NOVA/themes/midnight/sass/midnight_crit.scss';
+
+// START my CSS for Child-theme
